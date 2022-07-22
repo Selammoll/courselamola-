@@ -1,7 +1,11 @@
 
+	
 	*{
 		box-sizing: border-box;
 
+	}
+	div{
+		display: block;
 	}
 	.all{
 		width: 100%;
@@ -9,30 +13,67 @@
 		
 		
 	}
-	p{
+	#b{
+		background-color: orange;
+    position: relative;
+    top: 0;
+    left: 68%;
+    font-weight: bold;
+    	border: 1% solid black;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+	}
+	p {
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  
+}
+div #z{
+	background-color: lightblue;
+	align-items: center;
+}
+p {
 
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 1px;
 }
 	
 	
-	#a{
+	 #a{
 		background-color: lightgray;
-		margin-left: 84.5%;
-		align-content: top-right ;
-
+			border: 1% solid black;
+    position: relative;
+    top: -2%;
+    left: 68%;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 	
 	}
-	#b{
-		background-color: orange;
-			margin-left: 84.5%;
 	
-	}
-	#c{
-		background-color: purple;
-			margin-left: 84.5%;
 	
+	
+	 #c{
+	 background-color: purple;
+			border: 1% solid black;
+    position: relative;
+    top: -2%;
+    left: 68%;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 	}
 
 	
@@ -42,14 +83,7 @@
     margin-left: 40%;
 
 }
- button{
-	
-	align-items: topright;
-	box-sizing: border-box;
-	position: relative;
-	display: inline-grid;
 
-}
 
 
  @media(min-width : 992px){
@@ -72,7 +106,7 @@
 }
 	
 @media(min-width: 768px) and (max-width:991px){
-	.col-md-6  .col-md-9  #a #b #c{
+	.col-md-6  .col-md-9  {
 		  border: 1px solid black;
 	
 	
@@ -90,10 +124,11 @@
 		margin-left: 4%;
 		margin-top: 3%;
 	
-	}}
+	}
+ }
 	
 
-	@media(max-width : 699px){
+	@media(max-width : 767px){
     .col-lg-3 .col-md-6 .col-md-9  {
     	      float: left;
     	        border: 1px solid black;
@@ -103,6 +138,9 @@
     }
    
      }
+
+
+
 
 
 
